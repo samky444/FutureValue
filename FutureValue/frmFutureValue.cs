@@ -17,6 +17,9 @@ namespace FutureValue
             InitializeComponent();
         }
         // samuel Kiarie- 05/09/2022.. i have commited and made this change
+        // this is the major change made
+
+        
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             decimal monthlyInvestment = Convert.ToDecimal(txtMonthlyInvestment.Text);
