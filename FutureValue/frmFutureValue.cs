@@ -16,7 +16,7 @@ namespace FutureValue
         {
             InitializeComponent();
         }
-
+        // samuel Kiarie- 05/09/2022.. i have commited and made this change
         private void btnCalculate_Click(object sender, EventArgs e)
         {
             decimal monthlyInvestment = Convert.ToDecimal(txtMonthlyInvestment.Text);
@@ -45,9 +45,8 @@ namespace FutureValue
         private void ClearFutureValue(object sender, EventArgs e)
         {
             txtFutureValue.Text = "";
-         
-                       
-            
+            txtInterestRate.Text = "";
+            txtYears.Text = "";
         }
 
         private void frmFutureValue_Load(object sender, EventArgs e)
